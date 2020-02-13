@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#allTabsContainer {
+	width: 600px;
+	height: auto;
+	float: left;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+}
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 33px;
+	width: 100%;
+}
+ul.tabs li {
+	float: left;
+	padding: 0;
+	height: 33px;
+	line-height: 33px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	width: 292px;
+	margin: 0;
+}
+ul.tabs li a {
+	text-decoration: none;
+	color: #FFF;
+	display: block;
+	font-size: 13px;
+	outline: none;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 0;
+	padding-left: 35px;
+}
+ul.tabs li a:hover {
+	background-image: url(images/subMenuBGover.png);
+	background-repeat: no-repeat;
+}	
+html ul.tabs li.active, html ul.tabs li.active a:hover  {
+	color: #FFF;
+	background-image: url(images/subMenuBtnOver.png);
+	background-repeat: no-repeat;
+}
+.tab_container {
+	border-top: none;
+	float: left;
+	width: 600px;
+	-khtml-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-khtml-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	margin: 0px;
+	padding: 0px;
+}
+.tab_content {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	width: 600px;
+}
